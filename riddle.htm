@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curiopedia.com/riddle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <style>
+         body{
+            background-color: ;
+        }
+         /* Custom styles for the navbar */
+         .navbar-c {
+            background-color: skyblue; /* Dark background color */
+        }
+
+        .navbar-c .navbar-toggler-icon {
+            background-color: #fff; /* White color for the toggle button */
+        }
+
+        .navbar-c .navbar-nav .nav-link {
+            color: #fff !important; /* White text color for links */
+        }
+        
+        /*.narrow-row {
+            max-width: 800px;
+            margin: 0 auto;
+        }*/
+        .custom-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gif-container {
+            flex: 1;
+
+        }
+        .gif {
+            max-width: 100%;
+            height: auto;
+        }
+        .text-container {
+            flex:1;
+            padding:;
+        }
+        @media (min-width: 992px) {
+            .custom-section {
+                max-width: 800px;
+            }
+        }
+        #showAnswerButton {
+            background-color: skyblue;
+            border: 1px solid ;
+            border-radius: 3px;
+            color:white;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-c navbar-expand-lg navbar-light">
+        <a class="navbar-brand fw-bold" href="homepage.htm"> <img src="emoji.pic/hand_c.png" height="70px" width="70px">uriopedia </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="homepage.htm">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.htm">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.htm">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.htm">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="riddle.htm">Riddle</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-4">
+            <div class="text-container border-right pb-4" >
+                <h2> Riddle</h2>
+                <p>What 5-letter word typed in all capital letters can be read the same upside down?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer11()">Show Answer &darr;</button>
+                <div id="answer11" style="display: none;"> SWIMS.</div>
+            </div>
+            <div class=" gif-container pb-4">
+                <img class="img-fluid gif" src="emoji.pic/sos.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-2">
+            <div class=" gif-container border-right mb-4">
+                <img class="img-fluid gif" src="emoji.pic/sponge.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            <div class="text-container pb-4" >
+                <h2> Riddle</h2>
+                <p>I'm full of holes, but I can still hold water. What am I?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer10()">Show Answer &darr;</button>
+                <div id="answer10" style="display: none;">A sponge </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-4">
+            <div class="text-container border-right pb-4" >
+                <h2> Riddle</h2>
+                <p>I can be cracked, made, told, and played. What am I?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer9()">Show Answer &darr;</button>
+                <div id="answer9" style="display: none;">A joke</div>
+            </div>
+            <div class=" gif-container pb-4">
+                <img class="img-fluid gif" src="emoji.pic/ghost.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-2">
+            <div class=" gif-container border-right mb-4">
+                <img class="img-fluid gif" src="emoji.pic/what.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            <div class="text-container pb-4" >
+                <h2> Riddle</h2>
+                <p>I'm taken from a mine and shut up in a wooden case, from which I am never released,
+                     and yet I am used by almost every person. What am I?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer8()">Show Answer &darr;</button>
+                <div id="answer8" style="display: none;">Pencil lead/graphite </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-4">
+            <div class="text-container border-right pb-4" >
+                <h2> Riddle</h2>
+                <p>I'm full of keys, but I can't open any locks. What am I?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer7()">Show Answer &darr;</button>
+                <div id="answer7" style="display: none;"> A piano </div>
+            </div>
+            <div class=" gif-container pb-4">
+                <img class="img-fluid gif" src="emoji.pic/grand-piano.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-2">
+            <div class=" gif-container border-right mb-4">
+                <img class="img-fluid gif" src="emoji.pic/radar.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            <div class="text-container pb-4" >
+                <h2> Riddle</h2>
+                <p> I have cities, but no houses. I have forests, but no trees.<br>I have rivers, but no water. What am I?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer6()">Show Answer &darr;</button>
+                <div id="answer6" style="display: none;"> A map</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-4">
+            <div class="text-container border-right pb-4" >
+                <h2> Riddle</h2>
+                <p>The more you take, the more you leave behind. What am I?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer5()">Show Answer &darr;</button>
+                <div id="answer5" style="display: none;"> Footstep</div>
+            </div>
+            <div class=" gif-container pb-4">
+                <img class="img-fluid gif" src="emoji.pic/footprint.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-2">
+            <div class=" gif-container border-right mb-4">
+                <img class="img-fluid gif" src="emoji.pic/fire.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            <div class="text-container pb-4" >
+                <h2> Riddle</h2>
+                <p> I'm not alive, but I can grow; I don't have lungs,
+                     but I need air;<br> I don't have a mouth, but water 
+                     kills me. What am I?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer4()">Show Answer &darr;</button>
+                <div id="answer4" style="display: none;"> Fire</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row pb-4">
+            <div class="text-container border-right" >
+                <h2> Riddle</h2>
+                <p> I Speak without a mouth and hear without ears <br>
+                    I have nobody but i come alive with the wind
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer1()">Show Answer &darr;</button>
+                <div id="answer1" style="display: none;"> Echo</div>
+            </div>
+            <div class=" gif-container mb-4">
+                <img class="img-fluid gif" src="emoji.pic/wind.gif" alt="GIF" height="70px" width="170px">
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row">
+            <div class=" gif-container border-right mb-4">
+                <img class="img-fluid gif" src="emoji.pic/keyboard.gif" alt="GIF" height="70px" width="170px">
+            </div>
+            <div class="text-container pb-4" >
+                <h2> Riddle</h2>
+                <p> I have keys but no locks 
+                    I have space but no room<br>
+                    you can enter, but you can't 
+                    go outside. What am i?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer2()">Show Answer &darr;</button>
+                <div id="answer2" style="display: none;"> Keyboard</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4 Custom-section  border-bottom">
+        <div class="row narrow-row">
+            <div class="text-container border-right" >
+                <h2> Riddle</h2>
+                <p>I'm a loop that runs wild, never to cease,
+                    An error in code, a developer's unease.<br>
+                    With no exit in sight, I'll keep going on,
+                    Whats my name, when your code has gone wrong?
+                </p>
+                <button id="showAnswerButton" onclick="toggleAnswer3()">Show Answer &darr;</button>
+                <div id="answer3" style="display: none;"> An Infinite loop</div>
+            </div>
+            <div class=" gif-container mb-4">
+                <img class="img-fluid gif" src="emoji.pic/fast-forward.gif" alt="GIF" height="70px" width="170px">
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="row border-top">
+            <div class="col mt-4 text-center">
+                <p>2023 curiopedia. All rights reserved.</p>
+                <p>Social media links</p>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <script src="script.js">
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
