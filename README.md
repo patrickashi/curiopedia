@@ -1,2 +1,2 @@
 # curiopedia
- upload the local repo
+ upload the local repo on github
